@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idCliente: 1
+  Nombre: MyString
+  CIF: MyString
+
+two:
+  idCliente: 1
+  Nombre: MyString
+  CIF: MyString

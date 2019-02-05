@@ -1,0 +1,17 @@
+
+<div class="row col-md-12">
+	<div class="col-md-2">
+	</div>
+	<div class="col-md-8">
+		<h3>Update Customer: <%= @cliente.id %></h3>
+		<%= bootstrap_form_for @cliente do |f| %>
+		  <%= f.text_field :idCliente %>
+		  <%= f.text_field :Nombre %>
+		  <%= f.text_field :CIF %>
+		  <%= f.submit "Update" %>
+		<% end %>
+	</div>
+	<div class="col-md-2">
+	</div>	
+</div>
+

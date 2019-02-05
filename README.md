@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+babyASPGems is a little project to Learn Rails 5
 
-Things you may want to cover:
+In this project we use all the layers of MVC architecture and work with sqlite, routes, gems, boostrap and jQuery.
 
-* Ruby version
+Also use the XLS and PDF export of lists and more....
 
-* System dependencies
+This project is grow up, please be patient. I publish all features in the future.
 
-* Configuration
+Happy coding!
 
-* Database creation
+Next steps:
+- Billing creation / print / update
+- Work with files (delete basically)
+- Private access to panel
+- Work also with Postgre
+- Use API REST for export data in PDF and XLS
+- And what I can think of.....
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

@@ -1,0 +1,16 @@
+<div class="row col-md-12">
+	<div class="col-md-2">
+	</div>
+	<div class="col-md-8">
+		<h3>Customer <%= @cliente.CIF %> data</h3>
+		<ul class="list-group">
+		  <li class="list-group-item">Customer Num: <%= @cliente.idCliente %></li>
+		  <li class="list-group-item">Name: <%= @cliente.Nombre %></li>
+		  <li class="list-group-item">CIF: <%= @cliente.CIF %></li>		  
+		</ul>
+		<%= link_to '<button type="button" class="btn btn-primary">New Customer</button>'.html_safe, new_cliente_path %>
+		<%= link_to '<button type="button" class="btn btn-primary">View All</button>'.html_safe, clientes_path %>
+	</div>
+	<div class="col-md-2">
+	</div>	
+</div>
